@@ -32,6 +32,7 @@ I've tested this deployment files using microk8s in MacOS. The commands below co
 2. Run the commands below
 
 ```
+cd microservices-demo-arm/
 microk8s kubectl create ns microservices-demo
 microk8s kubectl apply -f *.yaml
 
